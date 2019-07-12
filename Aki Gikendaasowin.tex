@@ -326,20 +326,94 @@ The derivative of the tangent function can now be found using the Quotient Rule:
 
 \subsection{Secant Function}
 \LARGE 
-\[ f(x) = secx \]
-\[ f(x) = \frac{1}{cosx} \]
-\normalsize 
-The derivative of the secant function can now be found using the Quotient Rule:
-\LARGE 
 \begin{enumerate}
+  \item \[ f(x) = secx \]
+  \item \[ f(x) = \frac{1}{cosx} \]
   \item \[ f(x) = \frac{(cosx)(0)-(1)(-sinx)}{cos^2x} \]
   \item \[ f'(x) = \frac{sinx}{cos^2x} = \frac{1}{cosx}\cdot \frac{sinx}{cosx} \]
-  \item \[ secxtanx \]
+  \item \[ \frac{d}{dx}(secx) = secxtanx \]
 \end{enumerate}
 
 \normalsize 
 
 
+
+
+
+
+
+
+
+
+
+
+\subsection{Cotangent Function}
+Expressing the secant function as a fraction and using the Quotient Rule, we find:
+\LARGE 
+\begin{enumerate}
+  \item \[ f(x) = cotx = \frac{cosx}{sinx} \]
+  \item \[ f'(x) = \frac{(sinx)(-sinx)-(cosx)(cosx)}{(sinx)^2} \] 
+  \item \[ f'(x) = \frac{-sin^2x-cos^2x}{sin^2x} = \frac{-(sin^2x + cos^2x)}{sin^2x} \]
+  \item \[ f'(x) = \frac{-1}{sin^2x} = -csc^2x \]  
+  \item \[ \frac{d}{dx}(cotx) = -csc^2x \]
+\end{enumerate}
+
+\normalsize 
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Cosecant Function}
+Expressing the secant function as a fraction and using the Quotient Rule, we find:
+\LARGE 
+\begin{enumerate}
+  \item \[ f(x) = cscx = \frac{1}{sinx} \]
+  \item \[ f'(x) = \frac{(sinx)(0)-(1)(cosx)}{(sinx)^2} \]
+  \item \[ f'(x) = \frac{-cosx}{sin^2x} = -\frac{cosx}{sinx}\cdot \frac{1}{sinx} \]
+  \item \[ f'(x) = -cotxcscx \] 
+  \item \[ \frac{d}{dx}(cscx) = -cotxcscx \]
+\end{enumerate}
+\normalsize 
+
+
+
+
+
+
+
+
+
+
+\section{The Power Rule}
+\normalsize 
+We can use the power rule with functions in which an expression in brackets has been raised to power,
+
+\subsubsection{Finding the Derrivative using The Power Rule}
+\begin{enumerate}
+  \item Take the exponent that is on the term in brackets, bring it down, and make it a coefficient, lowering the original exponent by one.
+  \item Multiply this new expression by the derivative of what is inside the brackets.
+\end{enumerate}
+
+\subsubsection{A Function Containing a Bracket Raised to a Power:}
+\LARGE 
+\[ f(x) = g(x)h(x) \]
+\[ f'(x) = g(x)h'(x) + h(x)g'(x) \]
+
+\subsubsection{Example}
+\LARGE 
+\begin{enumerate}
+  \item \[ f(x) = (3x^2 + 4x + 8)(7x^3 + 5x^2) \]
+  \item \[ f'(x) = (3x^2 + 4x + 8)(21x^2 + 10x) + (7x^3 + 5x^2)(6x + 4) \]
+\end{enumerate}
+\normalsize 
 
 
 \end{document}
