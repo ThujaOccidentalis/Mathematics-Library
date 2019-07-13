@@ -525,4 +525,50 @@ Therefore, the function is achieving an extreme value at the point x = 0.
 
 \paragraph{Notice:}
 Although this strategie returens extreme values, it does not explicitly tell us whether a minimum or maximum value was being achieved.
+
+\subsection{Finding Maxima and Minima Using the Second Derivative Test}
+
+The rate of change of the function is the first derivative, and the rage of change of the \textit{slope} is the second derivative. If the second derivative of the function is negative, the function must be achieving a maximum at this point. \\ \\ If the slopes are positive moving in the right direction then the function must be at a minimum point.
+
+\subsubsection{Example}
+
+\begin{enumerate}
+  \LARGE
+  \item \normalsize On the interval (-4, 4) \LARGE \[ f(x) = \frac{1}{3}x^3 - \frac{1}{2}x^2 - 6x + 5 \]
+  \item \normalsize First, we use the First Derivative Test to find the points on the function where the function achieves an extreme value. We begin by calculating the first derivative of the function. \LARGE \[ f'(x) = x^2 - x - 6 \]
+  \item \normalsize Set the derivative equal to zero \LARGE \[ x^2 - x - 6 = 0 \]
+  \item \[ (x - 3)(x + 2) \]
+  \item \LARGE \[ x - 3 = 0 \] \normalsize or \LARGE \[ x + 2 = 0 \] \LARGE
+  \item \normalsize Each equation tells us the the function is achieving an extreme value at \LARGE \[ x = 3 \]  \normalsize and at \LARGE \[ x = -2 \] 
+  \item \normalsize To decide whether a maximum or minimum value is occurring at each of these points, we now use the Second Derivative Test. Once we calculate the second derivative of the function, we will evaluate it at each of our points of interest. \\ \\ If the second derivative is positive at the point of interest, a minimum value is occurring. Conversely, if the second derivative is negative at the point of interest, a maximum value is occuring at the point. \LARGE 
+  \[ f(x) = \frac{1}{3}x^3 - \frac{1}{2}x^2 - 6x + 5 \]
+  \[ f'(x) =  x^2 - x - 6  \]
+  \[ f''(x) =  2x - 1 \]
+
+  \item \normalsize Next we evaluate the second derivative at our two points: At x = 3: 
+  \LARGE
+  \[ f''(x) =  2x - 1 \]
+  \[ f''(3) =  2(3) - 1 = 5 \]
+  \normalsize The function achieves a minimum value at x = 3, because f''(3) is positive.
+  At x = -2: 
+  \LARGE
+  \[ f''(x) =  2x - 1 \]
+  \[ f''(-2) =  2(-2) - 1 = - 5 \]
+  \normalsize The function achieves a maximum value at x = -2 because f''(-2) is negative.
+  
+  \paragraph{Note:} if the second derivative does not provide us with an x into which we can substitute our point of interest, ex. $ (f''(x)=2) $ Since the second derivative is positive, a minimum value for the function occurs at the point of interest, x = 0.
+  
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
 \end{document}
