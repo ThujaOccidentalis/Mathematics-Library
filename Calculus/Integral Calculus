@@ -25,4 +25,53 @@
 \normalsize is the total area under the curve between $a$ and $b$
 \end{enumerate}
 
+
+f
+
+
+
+\section{Finding the Integral of a Function}
+\subsection{The Antiderivative of a Function}
+Given the expression 2x. The antiderivative of 2x is the expression that, if we take its derifative, would give us 2x. Finding the antiderivative of a function (and hence the integral of the function) is basically the reverse of finding the derivative.
+
+\begin{enumerate}
+  \item The derivative of $ x^2 $ is $ 2x $
+  \item The antiderivative of $ 2x $ is $ x^2 $
+\end{enumerate}
+
+\subsection{Unknown Constants}
+Finding the derivative of two functions 
+\LARGE
+\begin{enumerate}
+  \item \[ f(x) = x^2 + 12 \]
+  \item \[ f'(x) = 2x \]
+\end{enumerate}
+\normalsize
+and
+\LARGE
+\begin{enumerate}
+  \item \[ f(x) = x^2 + 3 \]
+  \item \[ f'(x) = 2x \]
+\end{enumerate}
+\normalsize
+we see that both functions have the same derivative. \\ \\ In other words, we can add any number to $ x^2 $ and it does not affect the derivative.  Consequently, there are an infinite number of functions that have a derivative of $ 2x $. 
+\\ \\
+ To allow for this possibility, we add the letter $ C $to represent the unknown constant.
+Thus the correct antiderivative for 2x is actually
+
+\LARGE \[ x^2 + C \]
+
+\subsubsection{Example}
+\normalsize
+Find the antiderivative of 3x + 4
+\\ \\ 
+
+\begin{enumerate}
+
+  \item \textit{\textbf{Solution}} First find the antiderivative of 3x  \LARGE \[ \frac{3}{2}x^2 \] \normalsize
+  \textit{\textbf{Note:}} We can check our work by finding the derivative of our expression. If our expression yields 3x, we have found the correct derivative.
+\end{enumerate}
+
+
+
 \end{document}
