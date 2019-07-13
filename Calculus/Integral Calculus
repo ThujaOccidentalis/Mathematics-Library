@@ -1,0 +1,28 @@
+\documentclass[a4paper,11pt]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+
+\title{Integral Calculus}
+\author{Thuja Occidentalis}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\chapter{Integral Calculus}
+\section{Integration Preliminaries}
+\subsubsection{Parts of the Integral Expression}
+\begin{enumerate}
+  \item $ dx $ is the width of one of our infinitely narrow rectangles.
+  \item $ f(x) $ is the height of each of our infinitely narrow rectangles.
+  \item $ f(x)dx $ is the area of each of our infinitely narrow rectangles.
+  \item $ a $ is the point at which we begin adding the areas of our infinitely narrow rectangles. This point is often referred to as the \textit{"lower limit of integration"}
+  \item $ b $ is the point at which we stop adding the areas of our infinitely narrow rectangles. This point is often referred to as the \textit{"upper limit of integration"}
+  \item The whole expression \LARGE \[ \int_a^b f(x)dx \]
+\normalsize is the total area under the curve between $a$ and $b$
+\end{enumerate}
+
+\end{document}
