@@ -4,6 +4,7 @@
 \usepackage{lmodern}
 \usepackage{amsmath}
 
+
 \title{Integral Calculus}
 \author{Thuja Occidentalis}
 
@@ -70,7 +71,94 @@ Find the antiderivative of:
   \item \textit{\textbf{Solution}} First find the antiderivative of 3x  \LARGE \[ \frac{3}{2}x^2 \] \normalsize
   \textit{\textbf{Note:}} We can check our work by finding the derivative of our expression. If our expression yields 3x, we have found the correct derivative.
   \item Next, we must address the 4 term
+  \LARGE \[ \frac{3}{2}x^2 + 4x \] \normalsize
+  \item The last step is to attach the letter C, (unknown constant) that might be present. Thus, the antiderivative of 3x + 4 is:
+  \LARGE \[ \frac{3}{2}x^2 + 4x + C \] \normalsize
 \end{enumerate}
+
+
+
+
+
+
+
+\section{Algorithm for Finding the Antiderivatives of Simple Polynomials}
+
+\begin{enumerate}
+  \item Take the exponent on the term and add 1 to it.
+  \item Take this new exponent, invert it, and make this a coefficient in front of the antiderivative
+    \LARGE \[ ax^n \] \normalsize
+    
+    \LARGE \[ \Bigg(\frac{1}{n+1} \Bigg) ax^{n+1} \] \normalsize
+\end{enumerate}
+
+
+
+
+
+
+
+\subsubsection{Example}
+Find the antiderivative of
+\LARGE \[ \frac{2x}{x^2 + 1} \] \normalsize
+\paragraph{Solution} 
+Since the numerator is the derivative of the denominator, we can use the rule for natural logarithm.
+
+\LARGE \[ ln(x^2 + 1) + C \] \normalsize
+
+\LARGE \normalsize
+
+
+
+
+
+\section{Using the Antiderivative to Calculate the Integral of a Function}
+
+\begin{enumerate}
+  \item The first step in solving the integral is to find the antiderivative of the function $ x^2 $
+\LARGE  \[ x^2 \] \normalsize
+  \item \LARGE \[ \frac{1}{3}x^3 + C \] \normalsize
+  \item Now we must take the end points into account
+\LARGE  \[ \int\limits_{1}^{2} x^2 dx = \Bigg[ \frac{1}{3}x^3 + C  \Bigg]_1^2 \]
+
+\normalsize
+Now we will substitute the endpoints that are attached to the integral for every x, using the following three-step process:
+\subsubsection{\textit{\textbf{Substituting the Endpoints into the Antiderivative}}}
+\begin{enumerate}
+  \item Substitute the top endpoint into the antiderivative everywhere there is an x. The top endpoint is \textit{always} substituted first, regardless of whether it is a positive number, negative number, or a letter.
+  \item Substitute the bottom endpoint into the antiderivative everywhere there is an x. The bottom endpoint is \textit{always} substituted first, regardless of whether it is a positive number, negative number, or a letter.
+  \item Subtract the antiderivative with the bottom endpoint substituted from the antiderivative with the top endpoint substituted.
+\end{enumerate}
+
+Subtracting our top and bottom points:
+\normalsize
+\item \LARGE \[ \int\limits_{1}^{2} x^2 dx = \Bigg[ \frac{1}{3}x^3 + C  \Bigg]_1^2 = \Bigg[ \frac{1}{3}(2)^3 + C  \Bigg]_1^2 - \Bigg[ \frac{1}{3}(1)^3 + C  \Bigg]_1^2 \]
+\normalsize 
+
+\normalsize
+\item \LARGE \[ \int\limits_{1}^{2} x^2 dx = \Bigg[ \frac{1}{3}(8) + C  \Bigg] - \Bigg[ \frac{1}{3}(1) + C  \Bigg] \]
+\normalsize 
+
+
+\normalsize
+\item \LARGE \[ \int\limits_{1}^{2} x^2 dx = \Bigg[ \frac{8}{3} + C  \Bigg] - \Bigg[ \frac{1}{3} + C  \Bigg] \]
+\normalsize 
+
+
+\normalsize
+\item \LARGE \[ \int\limits_{1}^{2} x^2 dx =  \frac{8}{3} + C -  \frac{1}{3} - C  \]
+\normalsize 
+
+
+\normalsize
+\item \LARGE \[ \int\limits_{1}^{2} x^2 dx =  \frac{7}{3}  \]
+\normalsize 
+
+The area under the function $ f(x) = x^2 $ between $ x = 1 $ and $ x = 2 $ is $ \frac{7}{3} $
+
+\end{enumerate}
+
+
 
 
 
