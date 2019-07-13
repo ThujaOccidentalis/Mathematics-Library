@@ -404,14 +404,14 @@ We can use the power rule with functions in which an expression in brackets has 
 
 \subsubsection{A Function Containing a Bracket Raised to a Power:}
 \LARGE 
-\[ f(x) = g(x)h(x) \]
-\[ f'(x) = g(x)h'(x) + h(x)g'(x) \]
+\[ f(x) = [g(x)]^n \]
+\[ f'(x) = n[g(x)]^{n-1}[g'(x)] \]
 
 \subsubsection{Example}
 \LARGE 
 \begin{enumerate}
-  \item \[ f(x) = (3x^2 + 4x + 8)(7x^3 + 5x^2) \]
-  \item \[ f'(x) = (3x^2 + 4x + 8)(21x^2 + 10x) + (7x^3 + 5x^2)(6x + 4) \]
+  \item \[ f(x) = (3x^2 + 5x)^5) \]
+  \item \[ f'(x) = 5(3x^2 + 5x)^4(6x + 5) \]
 \end{enumerate}
 \normalsize 
 
@@ -467,6 +467,44 @@ We can also express higher-order derivatives using the differential notation.
 
 
 
+
+
+
+
+
+\section{Implicit Differentiation}
+
+\subsubsection{Summary of the method:}
+
+\normalsize
+\begin{enumerate}
+  \item Beginning on the left side of the expression, find the derivative of each term. Remember also to find the derivatives of those terms on the right side of the equal sign.
+  \item Anytime you take the derivative of y raised to a power, calculate the derivative using the normal methods for finding derivatives but remember to attach a dy/dx to the result.
+  \item Execute the algebra necessary to isolate dy/dx.
+\end{enumerate}
+
+\subsubsection{Example Using Umplicit Differentiation}
+
+\begin{enumerate}
+\LARGE
+  \item \[ y^3 + 6x^2 = {e}^{7x} \]
+  \item \[ 3y^2\frac{dy}{dx} + 12x = {7e}^{7x} \]
+  \item \[ 3y^2\frac{dy}{dx} = {7e}^{7x} - 12x \]
+  \item \[ \frac{dy}{dx} = \frac{{7e}^{7x} - 12x}{3y^2} \]
+\normalsize
+\end{enumerate}
+
+\section{Dependent and Independent Variables}
+y is the dependent variable, and x is the independent variable
+
+
+
+
+
+
+
+
+\section{Maxima, Minima, and Points of Infection}
 
 
 
