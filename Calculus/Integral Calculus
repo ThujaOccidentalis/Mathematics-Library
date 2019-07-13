@@ -63,13 +63,13 @@ Thus the correct antiderivative for 2x is actually
 
 \subsubsection{Example}
 \normalsize
-Find the antiderivative of 3x + 4
-\\ \\ 
+Find the antiderivative of:
 
 \begin{enumerate}
-
+  \item \LARGE \[ 3x + 4 \] \normalsize
   \item \textit{\textbf{Solution}} First find the antiderivative of 3x  \LARGE \[ \frac{3}{2}x^2 \] \normalsize
   \textit{\textbf{Note:}} We can check our work by finding the derivative of our expression. If our expression yields 3x, we have found the correct derivative.
+  \item Next, we must address the 4 term
 \end{enumerate}
 
 
