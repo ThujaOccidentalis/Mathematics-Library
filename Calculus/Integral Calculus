@@ -162,4 +162,36 @@ The area under the function $ f(x) = x^2 $ between $ x = 1 $ and $ x = 2 $ is $ 
 
 
 
+
+
+
+
+
+
+
+\section{Definite and Indefinite Integrals}
+\subsubsection{Classifying Integrals}
+
+If we know the limits of integration (the endpoints), we call the integral a definite integral. If we do not know the limits of integration, we call the integral an indefinite integral.
+
+\begin{enumerate}
+  \item To calculate a \textit{definite} integral, first find the antiderivative of the function. Next insert the endpoints. Remember that the unknown constant, C, will cancel when the limits of tinegration are inserted. The final answer will 
+  \item To calculate an \textit{indefinite} integral, simply find the antiderivative of the function and stop at this point. Because we do not know the endpoints, we will not be able to insert them and have the unknown constan, C, cancel. The unknown constant always remains as part of the final answer when calculating an integral of this type.
+\end{enumerate}
+
+\subsubsection{Example with Indefinite Integral}
+Calculate the integral
+
+\begin{enumerate}
+  \normalsize \item \LARGE \[ \int\limits (3x + 4) dx \]
+  \normalsize \item \textit{\textbf{Solution}} \LARGE \[ \int\limits (3x + 4) dx = \frac{3}{2}x^2 + 4x + C \]
+\end{enumerate}
+
+
+
+
+
+
+
+
 \end{document}
