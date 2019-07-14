@@ -545,7 +545,25 @@ Use the trapezoidal approximation technique to evaluate the integral:
 
 \LARGE \[ \int\limits_0^2 x^3 dx \] \normalsize using n = 8
 
- 
+ \begin{enumerate}
+   \item If the interval between $ x = 0 $ and $ x = 2 $ is divided into 8 subintervals, the width of each trapezoid becomes:
+   
+   \LARGE \[ \Delta X = \frac{b - a}{n} \] 
+   \[ \Delta x = \frac{2 - 0}{8} \] 
+   \[ \Delta x = 0.25 \] \normalsize
+   
+   \item Thus, the trapezoidal approximation becomes 
+   \large \[ Area = \frac{0.25}{2} [f(0) + 2f(0.25) + 2f(0.5) + 2f(0.75) + ... + 2f(1.75) + f(2) ] \] \normalsize Here $ f(0.25) $ means $ (0.25)^3 $ since the function from the original integral is $ x^3 $.
+   \item \LARGE \[ Area = 0.125 (32.5) \]
+   \[ Area = 4.0625 \] \normalsize
+   
+   If we compare our result with the true value for the integral
+   
+   \LARGE \[ \int\limits_0^2 x^3 dx = 4 \] \normalsize
+   
+   we see that the trapezoidal approximation has produced a result remarkably close to the true result using only a very rough approximation $ (n=8) $.
+   
+ \end{enumerate}
 
 
 
