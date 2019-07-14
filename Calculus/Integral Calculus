@@ -193,5 +193,58 @@ Calculate the integral
 
 
 
+\section{The Method of Substitution}
+We can use the method of substitution when we have an expression raised to a power and something close to the derivative of the expression beside it. The term beside the expression raised to a power must be either the derivative of the expression or be off by a simple numerical factor.
+
+\subsubsection{Example}
+\begin{enumerate}
+  \item \LARGE\[ \int\limits (4x^2 + 5x)^6(8x + 5) dx \] \normalsize
+  \item First we need to set the variable u equal to the term in parentheses that has been raised to the power: \LARGE
+  \[ u = 4x^2 + 5x \]
+  \item \normalsize Next, we find the derivative of u with respect to the variable x: \LARGE
+  \[ \frac{du}{dx} = 8x + 5 \] \normalsize
+  \item Multiply both sides by $ dx $: \LARGE
+  \item \[ du = (8x + 5) dx \] \normalsize
+  \item \LARGE\[ \int (4x^2 + 5x)^6(8x + 5)dx = \int u^6 du \] \normalsize 
+  \item Now that the integral is writen in terms of the variable $ u $, it is a simple matter to find its antiderivative:
+  \LARGE \[ \int u^ du = \frac{1}{7}u^7 + C \] \normalsize
+  \item The last step is to reinsert the x-dependent expression that $ u $ was representing. \\ Since $ u = 4x^2 + 5 $,
+  \LARGE \[ \frac{1}{7}u^7 + C = \frac{1}{7} (4x^2 + 5x)^7 + C \] \normalsize
+  Thus,
+  \item \LARGE \[ \int (4x^2 + 5x)^6(8x + 5)dx =  \frac{1}{7} (4x^2 + 5x)^7 + C \]
+\end{enumerate}
+
+
+
+
+
+\paragraph{Example 2}
+\begin{enumerate}
+  \item \LARGE \[ \int (6x^2 + 8x)^5 (6x + 4) dx \] \normalsize
+  \item Set $ u $ to equal the term raised to the power:
+  \LARGE \[ u = 6x^2 + 8x \]
+  \item \normalsize Next, we find the derivative of $ u $ with respect to $ x $: \LARGE 
+  \[ \frac{du}{dx} = 12x + 8 \] \normalsize
+  \item Multiplying both sides by $ dx $, we get \LARGE 
+  \[ du = (12x + 8) dx \] \normalsize
+  Notice that in this example, finding the derivative of $ u $ with respect to $ x $ does not yield the exact term in the original integral. Our $ du $ is off by a factor of 2: \LARGE
+  \item \[ (12x + 8)dx = 2(6x + 4)dx \] \normalsize
+  Now we multiply by a factor of 2 and a factor of $ \frac{1}{2} $ \textit{at the same time}. Since this will not change the value of the integral. \\ Multiply inside the integral by a factor of $ 2 $, and in front of the integral by a factor of $ \frac{1}{2} $ to compensate: \LARGE 
+  \item \[ \int (6x^2 + 8x)^5 (6x + 4) dx = \frac{1}{2} \int (6x^2 + 8x)^5 2(6x + 4) dx \] \normalsize
+  Distribtuting the 2 yields
+  \item \LARGE \[ \frac{1}{2} \int (6x^2 + 8x)^5 2(6x + 4) dx = \frac{1}{2} \int (6x^2 + 8x)^5 (12x + 8) dx \] \normalsize Rewrite the integral in terms of the variable $ u $: \LARGE 
+  \item \[ \frac{1}{2} \int (6x^2 + 8x)^5 (12x + 8) dx = \frac{1}{2} \int u^5 du \] \normalsize 
+  Finding the antiderivative in terms of the variable $ u $ gives us \LARGE 
+  \item \[ \frac{1}{2} \int u^5 du = \frac{1}{2} \Bigg( \frac{1}{6} u^6 + C \Bigg) = \frac{1}{12} u^6 + C \]
+  \normalsize Finally, reinserting the x-dependent expression that $ u $ was representing gives \LARGE
+  \item \[ \frac{1}{12} u^6 + C = \frac{1}{12} (6x^2 + 8x)^6 + C \] \normalsize Thus, \LARGE
+  \item \[ \int (6x^2 + 8x)^5 (6x + 4) dx = \frac{1}{12} (6x^2 + 8x)^6 + C \]
+\end{enumerate}
+
+
+
+
+
+
 
 \end{document}
