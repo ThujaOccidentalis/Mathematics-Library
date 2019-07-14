@@ -270,4 +270,40 @@ We can use the method of substitution when we have an expression raised to a pow
 
 
 
+\section{The Relationship Between Integral and Differential Calculus} 
+
+\subsection{Derivatives and Differentials}
+
+\subsubsection{Example 1}
+
+\begin{enumerate}
+  \item \normalsize Find the differential expression for the function: \LARGE \[ y = e^{5x} \] \normalsize
+  \item \normalsize \textbf{\textit{Solution}} First, calculate the derivative of y with respect to x: \LARGE \[ \frac{dy}{dx} = 5e^{5x} \] \normalsize
+  \item \normalsize Next, we multiply both sides of the equation by the increment dx to yield the solution: \LARGE \[ \frac{dy}{dx} \cdot dx = 5x^{5x} \]
+  \[ dy = 5x^{5x} dx \]
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+\subsubsection{Example 2}
+
+\begin{enumerate}
+   \item \normalsize Find the differential expression for the function: \LARGE \[ y = sin3x \]
+  \item \normalsize \textbf{\textit{Solution}} First, calculate the derivative of y with respect to x: \LARGE \[ \frac{dy}{dx} = 3cos3x \] \normalsize
+  \item \normalsize Multiply by $ dx $: \LARGE \[ \frac{dy}{dx} \cdot dx = (3cos3x) dx \]
+  \[ dy = (3cos3x) dx \]
+\end{enumerate}
+
+
+
+
+
+
 \end{document}
