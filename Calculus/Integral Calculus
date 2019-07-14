@@ -475,6 +475,25 @@ Since each rectangle must have the same width of 0.25, we can find the area of e
 \end{center}
 \end{table}
 
+To find the approximation to the area under the curve, we simply add the areas of our four rectangles:
+\LARGE
+\[ Area = 0.2500 + 0.3906 + 0.5625 + 0.7656 \]
+\[ Area = 1.9687 \] \normalsize
+
+We can increase the accuracy of the approximation (closer to the actual area which is 2.3333) by increasing the number of rectangles dividing the area.
+
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Number of \\ rectangles, (n)\end{tabular}}} & \textbf{\begin{tabular}[c]{@{}l@{}}Width of each\\  rectangle (dx)\end{tabular}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Sum of the areas \\ included in \\ the rectangles\end{tabular}}} \\ \hline
+4                                                                                                   & 0.2500                                                                           & 1.9687                                                                                                                  \\ \hline
+8                                                                                                   & 0.1250                                                                           & 2.1751                                                                                                                  \\ \hline
+16                                                                                                  & 0.0625                                                                           & 2.2403                                                                                                                  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 \end{enumerate}
 
