@@ -3,6 +3,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage{amsmath}
+\usepackage{float}
+\restylefloat{table}
+
 
 
 \title{Integral Calculus}
@@ -409,6 +412,71 @@ Integration by Parts is an algorithm that will produce the integral of the funct
 
 
 
+
+
+
+
+
+
+
+
+\section{Numerical Integration Techniques}
+
+\subsection{Left-endpoint Approximation}
+\normalsize
+By dividing the area under a function between $ a $ and $ b $ into $ n $ rectangles, the height of each rectangle is determined by the x value associated with the left edge of the rectange. \\ \\ An approximate area can be found by adding the individual areas of these rectangles,
+\LARGE
+\[ Area = \Delta x [ f(x_0) + f(x_1) + ... +  f(x_{n-1})]  \]
+\normalsize
+
+\subsubsection{Example 1}
+
+We will apply left-endpoint approximation to an integral whose solution we already know, namely
+
+\begin{enumerate}
+  \item \LARGE
+\[ \int\limits_1^2 x^2 dx = \frac{7}{3} = 2.3333 \] \normalsize
+
+  \item Now divide the area between $ x = 1 $ and $ x = 2 $ into 4 rectangles
+  \LARGE \[ \Delta x = \frac{b - a}{n} \]
+  \[ \Delta x = \frac{2 - 1}{4} \]
+  \[ \Delta x = 0.25 \] \normalsize
+  The left ends of the rectangles will be located at $ x = 1 $, 1.25, 1.5, and 1.75.
+  \item To find the height of each rectangle, we insert these x values into the function $ f(x) = x^2 $:
+
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Rectangle} & \textbf{Location of Left End} & \textbf{Height} \\ \hline
+1                  & 1.00                          & 1.0000          \\ \hline
+2                  & 1.25                          & 1.5625          \\ \hline
+3                  & 1.50                          & 2.2500          \\ \hline
+4                  & 1.75                          & 3.0625          \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+  
+  
+Since each rectangle must have the same width of 0.25, we can find the area of each rectangle by multiplying each rectangle's hight by this width:
+
+\begin{table}[H]
+\begin{center}
+
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Rectangle} & \textbf{Height} & \textbf{Area} \\ \hline
+1                  & 1.0000          & 0.2500        \\ \hline
+2                  & 1.5625          & 0.3906        \\ \hline
+3                  & 2.2500          & 0.5625        \\ \hline
+4                  & 3.0625          & 0.7656        \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\end{enumerate}
 
 
 
