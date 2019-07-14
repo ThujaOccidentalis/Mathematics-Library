@@ -247,4 +247,27 @@ We can use the method of substitution when we have an expression raised to a pow
 
 
 
+
+
+\paragraph{Example with Definite Integral:}
+
+\begin{enumerate}
+  \item \LARGE \[ \int\limits_0^1 (5x^2 + x)^3 (10x + 1) dx \] \normalsize \LARGE
+  \item \[ u = 5x^2 + x \]
+  \item \[ du = (10x + 1) dx \]
+  \item \[ \int (5x^2 + x)^3 (10x + 1) dx = \int u^3 du \]
+  \item \normalsize Find the antiderivative \LARGE \[ \int u^3 du = \frac{1}{4} u^4 + C \]
+  \item \normalsize Reinsert what $ u $ was representing \LARGE \[ \frac{1}{4} u^4 + C = \frac{1}{4}(5x^2 + x)^4 + C \]
+  \item \normalsize Insert endpoints: \LARGE \[ \int\limits_0^1 (5x^2 + x)^3 (10x + 1) dx = \Bigg[ \frac{1}{4}(5x^2 + x)^4 + C \Bigg]_0^1 \]
+    \large \item \[ \int\limits_0^1 (5x^2 + x)^3 (10x + 1) dx = -\Bigg[ \frac{1}{4}(5(1)^2 + x)^4 + C \Bigg] - \Bigg[ \frac{1}{4}(5(0)^2 + x)^4 + C \Bigg] \] \LARGE 
+    \item \[ \int\limits_0^1 (5x^2 + x)^3 (10x + 1) dx = 324 \]
+\end{enumerate}
+
+
+
+
+
+
+
+
 \end{document}
