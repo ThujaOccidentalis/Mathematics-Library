@@ -172,7 +172,29 @@ Therefore, $ l $ is the diagonal of the parallelogram with sides $ a $ and $ tv 
 
 For values of $ t $, all points on $ l $ are of the form $ a + tv $ \\ \\ Thus line $ l $ may be expressed as:
 
-\LARGE \[ l(t) = a + tv \]
+\LARGE \[ l(t) = a + tv \] \normalsize
+\begin{center}
+\textit{We say that \textbf{l} is expressed parametrically with \textbf{t} the parameter.}
+\end{center}
+
+\subsubsection{Equation of a line beginning at a different point}
+
+Choose instead of \textbf{a} a different point on the given line. \\ 
+
+\subsubsection{Example 1}
+The endpoint $ a + v $ is on the line $ l(t) = a + tv $, thus \LARGE \[ l_1(t) = (a + v) + tv \] \normalsize represents the same line.
+
+\subsubsection{Example 2}
+If $ \alpha \neq 0 $, the vector $ \alpha v $ has the same (or opposite) direction as \textbf{v}. Thus,
+
+\LARGE \[ l_2(t) = a + t\alpha v \] \normalsize 
+is another parameterization of he line $ l(t) = a + tv $.
+
+\subsubsection{Example 3}
+Determine the equation of the line passing through (1, 0, 0) in the direction of \textbf{j}.
+\LARGE \[ l(t) = i + tj \] \normalsize 
+
+
 
 
 
