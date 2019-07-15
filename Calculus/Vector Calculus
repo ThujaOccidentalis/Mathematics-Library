@@ -151,10 +151,28 @@ We can represent any vector in terms of the vectors \textbf{i}, \textbf{j}, and 
 \textbf{v} = s\textbf{a} + t\textbf{b}, where s\textbf{a} and t\textbf{b} are points of intersection of lines parallel to vectors \textbf{a}, and \textbf{b}, for $ 0 \leq s \leq 1 $, and $ 0 \leq t \leq 1 $
 
 \subsection{Equation of a Plane}
-\LARGE \[ \alpha v + \beta w | v \in \mathbb{R}, w \in \mathbb{R} \]
+\LARGE \[ \alpha v + \beta w | v \in \mathbb{R}, w \in \mathbb{R} \] \normalsize \begin{center}
+\textit{called the plane spanned by \textbf{v} and \textbf{w}} 
+\end{center} 
+\LARGE
+\textit{xy-plane = the plane spanned by vectors \textbf{i} and \textbf{j}} \\
+\textit{yz-plane = the plane spanned by vectors \textbf{j} and \textbf{k}} \\
+\textit{xz-plane = the plane spanned by vectors \textbf{i} and \textbf{k}} \\ \normalsize \\
+When $ v = \gamma w$, a multiple of \textbf{w}, then \textbf{v} and \textbf{w} are parallel and the plane degenerates to a straight line. When \textbf{v} = \textbf{w} = \textbf{0} (zero vectors) we obtain a single point.
 
+\subsection{Equation of a Line}
+\begin{enumerate}
+  \item $ l $ = line
+  \item $ a $ = vector whose endpoint line \textbf{l} passes through
+  \item $ v $ = vector whose direction is that of line \textbf{l}
+  \item $ tv $ = all scalar multiples of the vector \textbf{v} (all the points, and therefore all points on the line passing through the origin in the direction \textbf{v} 
+\end{enumerate}
 
+Therefore, $ l $ is the diagonal of the parallelogram with sides $ a $ and $ tv $.
 
+For values of $ t $, all points on $ l $ are of the form $ a + tv $ \\ \\ Thus line $ l $ may be expressed as:
+
+\LARGE \[ l(t) = a + tv \]
 
 
 
