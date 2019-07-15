@@ -142,9 +142,9 @@ If \textbf{v} = (x, y, z), \\
   \textbf{v} = x(1, 0, 0) + y(0, 1, 0) + z(0, 0, 1) = x\textbf{i} + y\textbf{j} + z\textbf{k}
 \end{center}
 
-We can represent any vector in terms of the vectors \textbf{i}, \textbf{j}, and \textbf{k}. For that reason the vectors \textbf{i}, \textbf{j}, and \textbf{k} are called the \textit{standard basis vectors for} $ \mathbb{R}^3 $.
+We can represent any vector in terms of the vectors \textbf{i}, \textbf{j}, and \textbf{k}. For that reason the vectors \textbf{i}, \textbf{j}, and \textbf{k} are called the \textit{standard basis vectors for} $ \mathbb{R}^3 $. \\ \\ The vector ending at (2, 3, 2) is 2\textbf{i} + 3\textbf{j} + 2\textbf{k}. \\ \\ 
 
-
+\textbf{v} = s\textbf{a} + t\textbf{b}, where s\textbf{a} and t\textbf{b} are points of intersection of lines parallel to vectors \textbf{a}, and \textbf{b}.
 
 
 
