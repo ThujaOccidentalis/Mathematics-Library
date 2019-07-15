@@ -2,11 +2,21 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\newcommand{\R}{\mathbb{R}}
+
+
+
+
 
 \title{Vector Calculus}
 \author{Thuja Occidentalis}
 
 \begin{document}
+
+
 
 \maketitle
 \tableofcontents
@@ -16,9 +26,116 @@
 \section{Vectors in Three-dimentional Space}
 
 \begin{enumerate}
-  \item The x-axis, y-axis, and z-axis, meet at a point called the origin.
-  \item Each point in space is assigned a unique ordered triple of real numbers (a, b, c).
+  \item The real line is denoted $ \mathbb{R}^1 $ (Thus, $ \mathbb{R} $ and $ \mathbb{R}^1 $ are identical ).
+
+  \item The set of all ordered pairs $ (x, y) $ of real numbers is denoted $ \mathbb{R}^2 $
+  
+  \item The set of all ordered triples $ (x, y, z) $ of real numbers is denoted $ \mathbb{R}^3 $
+
+  \item When speaking of $ \mathbb{R}^1 $, $ \mathbb{R}^2 $, and $ \mathbb{R}^3 $ collectively, we write $ \mathbb{R}^n $, $ n = 1$, $2$, or $3$; or $ \mathbb{R}^m $, $m$ = $1$, $2$, $3$.
 \end{enumerate}
+
+
+\subsection{Addition in $ \mathbb{R}^3  $}
+Given $ (x, y, z) $, and $ (x', y', z') $, we define their \textit{sum} by
+\LARGE
+\[ (x, y, z) + (x', y', z') = (x + x', y + y', z + z') \]
+
+\subsubsection{Example 1}
+\LARGE
+\[ (1, 1, 1) + (2, -3, 4) = (3, -2, 5) \] 
+\[ (x, y, z) + (0, 0, 0) = (x, y, z) \]
+
+\subsection{Zero Element of $ \mathbb{R}^3 $} 
+\normalsize The element $ (0, 0, 0)$ is called the \textit{zero} element of $ \mathbb{R}^3 $. 
+
+\subsection{Additive Invers of $ (x, y, z) $}
+The element $ (-x, -y, -z) $ is called the Additive invers of $ (x, y, z) $.
+
+\subsection{Scalar Multiplication}
+"Scalar" = "Real Number"
+\\ Given scalar $ \alpha  $ and triple $ (x, y, z) $, we define the scalar multiple \textit{or scalar product} by
+\LARGE
+\[ \alpha (x, y, z) = (\alpha x, \alpha y, \alpha z) \]
+\normalsize
+
+\subsubsection{Example 1}
+\LARGE \[ 2(4, e, 1) = (2 \cdot 4, 2 \cdot e, 2 \cdot 1) = (8, 2e, 2)  \]
+
+\subsubsection{Example 2}
+\LARGE \[ (\alpha  + \beta)(x, y, z) = ((\alpha  + \beta)x, (\alpha  + \beta)y, (\alpha  + \beta)z)  \]
+\[ = (\alpha x + \beta x, \alpha y + \beta y, \alpha z + \beta z) \]
+\[ = \alpha (x, y, z) + \beta (x, y, z) \]
+
+\normalsize 
+\subsection{Identities for Addition and Scalar Multiplication}
+Addition and scalar multiplication for $ \mathbb{R}^3  $ stisfy the following identities:
+
+\begin{enumerate}
+  \item \LARGE \[ (\alpha \beta)(x, y, z) = \alpha (\beta (x, y, z)) \] \normalsize 
+\begin{center}
+    (associativity)
+  \end{center}
+   \item \LARGE \[ (\alpha + \beta)(x, y, z) = \alpha (x, y, z) + \beta (x, y, z) \] \normalsize 
+\begin{center}
+      (distributivity)
+   \end{center} 
+  \item \LARGE \[ \alpha ((x, y, z) + (x', y', z')) = \alpha (x, y, z) + \alpha (x, y, z) \] \normalsize 
+\begin{center}
+    (distributivity) 
+  \end{center}
+  \item \LARGE \[ \alpha (0, 0, 0) = (0, 0, 0) \] \normalsize \begin{center}
+  (properties of zero elements)
+  \end{center}
+  \item \LARGE \[ 0(x, y, z) = (0, 0, 0) \] \normalsize \begin{center}
+  (properties of zero elements) 
+  \end{center}
+  \item \LARGE \[ 1(x, y, z) = (x, y, z) \] \normalsize \begin{center}
+  (properties of the sidentity element)
+  \end{center}
+\end{enumerate}
+
+\subsection{Definition of a Vector}
+A vector is a line segment beginning at the origin, with a specified magnitude and direction. They are generally printed as \textbf{v}. \\ \\ We may associate each vector \textbf{v} the point in space (x, y, z) where \textbf{v} terminates. (we write $ \textbf{v} = (x, y, z) $) \\ \\ The elements of $ \mathbb{R}^3 $ are not only triples, but also called vectors. \\ \\ Two vectors are \textit{equal} if they have the same direction and magnitude. Given: 
+
+\begin{center}
+\LARGE $ v_1 = (x, y, z) $ and \LARGE $ v_2 = (x', y', z') $ 
+\end{center}
+
+\LARGE
+\begin{center}
+  $ v_1 = v_2 $ if and only if $x = x' $, $y = y' $, $ z = z' $ \normalsize
+\end{center}
+
+\normalsize We define the vector addition of $ v_1 $ and $ v_1 $ as the parallelogram having $ v_1 $ as one side and $ v_2 $ as its adjecent side. \\ \\ The sum $ v_1 + v_2 $ is the directed line segment along the diagonal of the paralelogram.
+
+
+\begin{center}
+    \includegraphics[width=0.6\linewidth]{Vector_Addition_01}\\ 
+        \textit{Geometry of vector addition}
+  \end{center}
+
+
+
+\begin{center}
+        \includegraphics[width=0.6\linewidth]{Scalar_Multiplication_001}\\ 
+        \textit{Some scalar multiples of a vector v}
+    \end{center}
+    
+\begin{center}
+        \includegraphics[width=0.9\linewidth]{Vector_Subtraction}\\ 
+        \textit{The geometry of vector subtraction}
+    \end{center}
+
+
+
+
+
+
+
+
+
+
 
 
 \end{document}
