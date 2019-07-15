@@ -210,7 +210,17 @@ The line passing through the endpoints of \textbf{a} and \textbf{b}. \\ \\
 Notice here that we substitute a point in for \textbf{a}
 and a direction in for \textbf{v}.
 
+\subsubsection{Example}
 
+Find the equation of the line passing through (-1, 1, 0) and (0, 0, 1).
+
+\begin{enumerate}
+  \item Letting \textbf{a} = \textbf{-i} + \textbf{j}
+  \textbf{b} = \textbf{k}
+  \item \LARGE \[ l(t) = (1 - t)(-i + j) + tk \]
+  \[ = -(1 - t)i + (1 - t)j + tk \] \normalsize
+  thus \LARGE \[ l(t) = (t - 1)i + (1 - t)j + tk \]
+\end{enumerate}
 
 
 
