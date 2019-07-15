@@ -64,6 +64,29 @@ The element $ (-x, -y, -z) $ is called the Additive invers of $ (x, y, z) $.
 \subsection{Identities for Addition and Scalar Multiplication}
 Addition and scalar multiplication for $ \mathbb{R}^3  $ stisfy the following identities:
 
+\begin{enumerate}
+  \item \LARGE \[ (\alpha \beta)(x, y, z) = \alpha (\beta (x, y, z)) \] \normalsize 
+\begin{center}
+    (associativity)
+  \end{center}
+   \item \LARGE \[ (\alpha + \beta)(x, y, z) = \alpha (x, y, z) + \beta (x, y, z) \] \normalsize 
+\begin{center}
+      (distributivity)
+   \end{center} 
+  \item \LARGE \[ \alpha ((x, y, z) + (x', y', z')) = \alpha (x, y, z) + \alpha (x, y, z) \] \normalsize 
+\begin{center}
+    (distributivity) 
+  \end{center}
+  \item \LARGE \[ \alpha (0, 0, 0) = (0, 0, 0) \] \normalsize \begin{center}
+  (properties of zero elements)
+  \end{center}
+  \item \LARGE \[ 0(x, y, z) = (0, 0, 0) \] \normalsize \begin{center}
+  (properties of zero elements) 
+  \end{center}
+  \item \LARGE \[ 1(x, y, z) = (x, y, z) \] \normalsize \begin{center}
+  (properties of the identity element)
+  \end{center}
+\end{enumerate}
 
 
 
