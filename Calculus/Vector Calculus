@@ -126,6 +126,23 @@ A vector is a line segment beginning at the origin, with a specified magnitude a
         \includegraphics[width=0.9\linewidth]{Vector_Subtraction}\\ 
         \textit{The geometry of vector subtraction}
     \end{center}
+  
+We may say that \textbf{ b - a } is the vector parallel to, the line segment beginning at the endpoint of \textbf{a} and terminating at the endpoint of \textbf{b}.
+
+\subsection{Standard Basis Vectors} 
+
+\begin{center} \LARGE 
+    \textbf{i} = the vector that ends at (1, 0, 0) \\
+  \textbf{j} = the vector that ends at (0, 1, 0) \\
+  \textbf{k} = the vector that ends at (0, 0, 1)
+  \end{center} \normalsize
+  
+If \textbf{v} = (x, y, z), \\ 
+\begin{center}
+  \textbf{v} = x(1, 0, 0) + y(0, 1, 0) + z(0, 0, 1) = x\textbf{i} + y\textbf{j} + z\textbf{k}
+\end{center}
+
+We can represent any vector in terms of the vectors \textbf{i}, \textbf{j}, and \textbf{k}. For that reason the vectors \textbf{i}, \textbf{j}, and \textbf{k} are called the \textit{standard basis vectors for} $ \mathbb{R}^3 $.
 
 
 
