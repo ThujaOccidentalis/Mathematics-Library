@@ -177,7 +177,7 @@ For values of $ t $, all points on $ l $ are of the form $ a + tv $ \\ \\ Thus l
 \textit{We say that \textbf{l} is expressed parametrically with \textbf{t} the parameter.}
 \end{center}
 
-\subsubsection{Equation of a line beginning at a different point}
+\subsection{Equation of a line beginning at a different point}
 
 Choose instead of \textbf{a} a different point on the given line. \\ 
 
@@ -191,9 +191,24 @@ If $ \alpha \neq 0 $, the vector $ \alpha v $ has the same (or opposite) directi
 is another parameterization of he line $ l(t) = a + tv $.
 
 \subsubsection{Example 3}
-Determine the equation of the line passing through (1, 0, 0) in the direction of \textbf{j}.
+Determine the equation of the line passing through (1, 0, 0) \textit{(the endpoint of \textbf{i})} in the direction of \textbf{j}.
 \LARGE \[ l(t) = i + tj \] \normalsize 
 
+\subsection{Equation of a line through the endpoints of two vectors}
+
+The line passing through the endpoints of \textbf{a} and \textbf{b}. \\ \\ 
+
+\textit{Thought Process}
+\begin{enumerate}
+  \item Since \textbf{b} - \textbf{a} is parallel to the directed line segment from \textbf{a} to \textbf{b},
+  \item the line passing through \textbf{a} in the direction of \textbf{b} - \textbf{a}, is 
+\end{enumerate}
+
+\LARGE \[ l(t) = a + t(b - a) \] \normalsize that is 
+\LARGE \[ l(t) = (1 - t)a + tb \] \normalsize
+
+Notice here that we substitute a point in for \textbf{a}
+and a direction in for \textbf{v}.
 
 
 
