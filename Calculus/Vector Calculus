@@ -498,7 +498,34 @@ or, symbolically \LARGE
 i & j & k\\ 
 a_1 & a_2 & a_3\\ 
 b_1 & b_2 & b_3
-\end{bmatrix} \]
+\end{bmatrix} \] \normalsize
+
+The cross product of two vectors is called the \textit{vector product}.
+
+\subsection{Algebraic Properties of the Cross Product}
+\begin{enumerate}
+  \item \LARGE $ \textbf{a} \times \textbf{b}  = - (\textbf{b} \times \textbf{a})$ \normalsize
+  \item \LARGE $ \textbf{a} \times (\beta \textbf{b} + \gamma \textbf{c}) = \beta (\textbf{a} \times \textbf{b}) + \gamma (\textbf{a} \times \textbf{c}) $ \normalsize
+  
+    \item \LARGE $ (\alpha \textbf{a} \times + \beta \textbf{b}) \times \textbf{c} = \alpha (\textbf{a} \times \textbf{c}) + \beta (\textbf{b} \times \textbf{c})$ \normalsize   
+\end{enumerate}
+
+\LARGE 
+\[ i \times i = 0 \]   \[ j \times j = 0 \]  \[ k \times k = 0 \]
+
+\[ i \times j = k \] \[ j \times k = i \] \[ k \times i = j \] 
+
+
+
+\begin{center}
+    \includegraphics[width=0.3\linewidth]{IJK_Circle}\\ 
+        \textit{Permuting \textbf{i, j, k}}
+  \end{center}
+  
+  
+  
+  
+
 
 
 
