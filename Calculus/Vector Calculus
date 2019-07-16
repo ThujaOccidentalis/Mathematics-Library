@@ -311,6 +311,73 @@ Given that \textbf{a} and \textbf{b} are two nonzero orthogonal vectors, and \te
 
 
 
+\section{The Cross Product}
+
+Given two vectors \textbf{a} and \textbf{b} we can produce a third vector \textbf{a} x \textbf{b}. \\ \\ This new vector will be perpendicular to the plane spanned by \textbf{a} and \textbf{b}.
+
+\subsection{2 x 2 Matrices}
+
+We begin by defining a 2 x 2 \textit{matrix} to be an array
+\LARGE \[ \begin{bmatrix}
+a_{11} & a_{12} \\ 
+a_{21} & a_{22}
+\end{bmatrix} \] \normalsize
+where $ a_11 $, $ a_12 $, $ a_21 $, $ a_22 $, are four scalars. For example,
+
+\LARGE \[ \begin{bmatrix}
+2 & -1 \\ 
+0 & 4
+\end{bmatrix}
+ \] \normalsize
+ 
+ The determinant of such a matrix is the real number determined by the equation
+
+\LARGE \[ \begin{bmatrix}
+a_{11} & a_{12} \\ 
+a_{21} & a_{22}
+\end{bmatrix} = a_{11}a_{22} - a_{12}a_{21} \] \normalsize
+
+\subsubsection{Example 1}
+\LARGE 
+\[ \begin{bmatrix}
+1 & 1 \\ 
+1 & 1
+\end{bmatrix} = 1 - 1 = 0 \]
+
+\[ \begin{bmatrix}
+1 & 2 \\ 
+3 & 4
+\end{bmatrix} = 4 - 6 = -2 \] \normalsize
+
+\subsection{3 x 3 Matricies and Determinants}
+
+The determinant of a 3 x 3 matrix is as follows
+
+\LARGE 
+\[\begin{bmatrix}
+a_{11} & a_{12} & a_{13} \\ 
+a_{21} & a_{22} & a_{23} \\
+a_{31} & a_{32} & a_{33}
+\end{bmatrix} = a_{11}\begin{bmatrix}
+a_{22} & a_{23} \\ 
+a_{32} & a_{33}
+\end{bmatrix} - a_{12}\begin{bmatrix}
+a_{21} & a_{23} \\ 
+a_{31} & a_{33}
+\end{bmatrix} - a_{13}\begin{bmatrix}
+a_{21} & a_{22} \\ 
+a_{31} & a_{32}
+\end{bmatrix} \] \normalsize
+
+
+
+
+ 
+ 
+
+
+
+
 
 
 
