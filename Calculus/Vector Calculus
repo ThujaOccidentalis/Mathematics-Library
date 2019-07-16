@@ -364,15 +364,66 @@ a_{32} & a_{33}
 \end{bmatrix} - a_{12}\begin{bmatrix}
 a_{21} & a_{23} \\ 
 a_{31} & a_{33}
-\end{bmatrix} - a_{13}\begin{bmatrix}
+\end{bmatrix} + a_{13}\begin{bmatrix}
 a_{21} & a_{22} \\ 
 a_{31} & a_{32}
 \end{bmatrix} \] \normalsize
 
+Multiply first term of first row, by the determinant of the 2 x 2 matrix obtained by cancelling the $ i^{th} $ row and the $ j^{th} $ column. Remember to put a negative sign in fron of the $ a_{12} $ term.
 
+\subsubsection{Example 2}
+\LARGE \[ \begin{bmatrix}
+1 & 0 & 0\\ 
+0 & 1 & 0\\ 
+0 & 0 & 1
+\end{bmatrix} = 1\begin{bmatrix}
+1 & 0\\ 
+0 & 1
+\end{bmatrix} -0 \begin{bmatrix}
+0 & 0\\ 
+0 & 1
+\end{bmatrix} + 0\begin{bmatrix}
+0 & 1 \\ 
+0 & 0
+\end{bmatrix} = 1 \] \normalsize 
 
+\subsubsection{Example 3}
 
- 
+\LARGE \[ \begin{bmatrix}
+1 & 2 & 4\\ 
+4 & 5 & 6\\ 
+7 & 8 & 9
+\end{bmatrix} = 1\begin{bmatrix}
+5 & 6\\ 
+8 & 9
+\end{bmatrix} -2 \begin{bmatrix}
+4 & 6\\ 
+7 & 9
+\end{bmatrix} + 3\begin{bmatrix}
+4 & 5 \\ 
+7 & 8
+\end{bmatrix} = -3 + 12 - 9 = 0 \] \normalsize
+
+\subsection{Change Sign of Matrix}
+Interchanging two rows or two columns results in a change of sign.
+
+\subsection{Factoring Scalars out of Determinants}
+\LARGE
+\[ \begin{bmatrix}
+\alpha a_{11} & 
+\alpha a_{12} & 
+\alpha a_{13} \\ 
+a_{21} & a_{22} & a_{23} \\ 
+a_{31} & a_{32} & a_{33} 
+\end{bmatrix} = \alpha \begin{bmatrix}
+a_{11} & a_{12} & a_{13} \\ 
+a_{21} & a_{22} & a_{23} \\ 
+a_{31} & a_{32} & a_{33}
+\end{bmatrix} = \begin{bmatrix}
+a_{11} & \alpha a_{12} & a_{13} \\ 
+a_{21} & \alpha a_{22} & a_{23} \\ 
+a_{31} & \alpha a_{32} & a_{33}
+\end{bmatrix} \] \normalsize
  
 
 
