@@ -257,6 +257,8 @@ For any nonzero vector a, the following equation will \textit{normalize} (conver
 
 The distance of the line from the endpoint of \textbf{a} to the endpoint of \textbf{b} is \textbf{||b} - \textbf{a||}
 
+To check your answe, take the magnitude (find the length) of your new normalized vector, if it equals 1 you have the correct answer.
+
 \subsection{Angle Between two Vectors}
 \LARGE \[ \theta  = cos^{-1} \frac{\textbf{a} \cdot \textbf{b}}{||\textbf{a}|| ||\textbf{b}||} \] \normalsize
 
@@ -278,6 +280,30 @@ Find the angle between the vectors i + j + k and i + j - k
 \end{enumerate}
 
 
+The inner product proviced us with a convient method for determining if two vectors are perpendicular. This is because $ \textbf{a} \cdot \textbf{b} = 0 $ if and only uf $ cos\theta = 0 $. \\
+
+The standard basis vectors \textbf{i, j}, and \textbf{k} are mutually \textit{orthogonal} and \textit{normal}. \\ \\ \textit{Normal} meaning of length 1, and \textit{orthogonal} meaning perpendicular. Any such system is called \textit{orthonormal} (both orthogonal and normal).
+
+\subsection{Component of a Vector}
+Given,
+\LARGE \[ c = \alpha a + \beta b \] \normalsize
+vector $ \alpha a $ is a component of $ c $ and vector $ \beta b $ is a component of $ c $. Then $ c = \alpha a + \beta b $ is a resolution of $ \textbf{c} $ into two orthogonal vectors.
+
+
+
+
+
+
+\subsection{Use the Inner Product to Determine $ \alpha and \beta $} 
+Given that \textbf{a} and \textbf{b} are two nonzero orthogonal vectors, and \textbf{c be a vector spanned by \textbf{a} and \textbf{b}}
+
+\begin{enumerate}
+  \item Taking the inner product of \textbf{a} and \textbf{c}, we have
+  \LARGE \[ a\cdot c = a\cdot (\alpha a + \beta b) = \alpha a \cdot a + \beta a + b\] \normalsize
+  Since \textbf{a} and \textbf{b} are orthogonal, $ a\cdot b = 0 $, an so
+\item \LARGE \[ \alpha = \frac{a \cdot c}{a \cdot a} = \frac{a\cdot c}{||a||^2} \] \normalsize
+\item \LARGE \[ \beta = \frac{b \cdot c}{b \cdot b} = \frac{b\cdot c}{||b||^2} \]
+\end{enumerate} \normalsize
 
 
 
