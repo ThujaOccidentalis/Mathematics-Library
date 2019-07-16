@@ -407,6 +407,34 @@ Multiply first term of first row, by the determinant of the 2 x 2 matrix obtaine
 \subsection{Change Sign of Matrix}
 Interchanging two rows or two columns results in a change of sign.
 
+For rows we have 
+
+\LARGE 
+\[ \begin{bmatrix}
+a_{11} & a_{12} \\ 
+a_{21} & a_{22}
+\end{bmatrix} = a_{11}a_{22} - a_{21}a_{12} \] \\ \\
+
+\[= a_{21}a_{12} - a_{11}a_{22} = - \begin{bmatrix}
+a_{21} & a_{22} \\ 
+a_{11} & a_{12}
+\end{bmatrix} \] \normalsize
+
+and for columns
+
+\LARGE 
+
+\[ \begin{bmatrix}
+a_{11} & a_{12} \\ 
+a_{21} & a_{22}
+\end{bmatrix} = 
+ -(a_{11}a_{22} - a_{21}a_{12}) = - \begin{bmatrix}
+a_{12} & a_{11} \\ 
+a_{22} & a_{21}
+\end{bmatrix} 
+ \] \normalsize
+
+
 \subsection{Factoring Scalars out of Determinants}
 \LARGE
 \[ \begin{bmatrix}
