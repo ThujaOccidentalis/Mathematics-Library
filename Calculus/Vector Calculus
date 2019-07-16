@@ -221,6 +221,71 @@ Find the equation of the line passing through (-1, 1, 0) and (0, 0, 1).
   \[ = -(1 - t)i + (1 - t)j + tk \] \normalsize
   thus \LARGE \[ l(t) = (t - 1)i + (1 - t)j + tk \]
 \end{enumerate}
+\normalsize Above, notice that we distribute the negative sign in $ -(1 - t)i $ which changes the sign of both terms yielding $ (t - 1)i $.
+
+\subsection{Describe the Points on The Plane}
+Describe the points on the plane spanned by $ v_1 = (2, 7, 0) and v_2 = (0, 2, 7)$.
+
+\LARGE \[ (2s, 7s + 2t, 7t) | s \in\mathbb{R}, t \in \mathbb{R} \] \normalsize
+
+\subsection{Describe the Line Passing Throught Two Points}
+Describe the line passing throught $ (-1, -1, -1) and (1, -1, 2) $
+
+\LARGE \[ l(t) = (2t - 1)i - j + (3t - 1)k \]
+
+
+
+
+
+
+
+
+\section{The Inner Product ("The Dot Product")}
+\normalsize
+Given two vectors a and b, to find the angle between them we can use the inner product.
+
+Sometimes the inner product is denoted $ <a, b> $, or $ a\cdot b $. \textit{Both mean the same thing.}
+
+\subsection{Length of a Vector}
+
+\LARGE \[ \textbf{||a||} = \sqrt{a_1^2 + a_2^2 + a_3^2} \] \normalsize
+The norm of \textbf{a} denoted: $ ||a|| $ is the length of vector \textbf{a}.
+
+\subsection{Normalize a Vector}
+For any nonzero vector a, the following equation will \textit{normalize} (convert to length 1) the vector.
+\large \[ \frac{\textbf{a}}{\textbf{||a||}} \] \normalsize
+
+The distance of the line from the endpoint of \textbf{a} to the endpoint of \textbf{b} is \textbf{||b} - \textbf{a||}
+
+\subsection{Angle Between two Vectors}
+\LARGE \[ \theta  = cos^{-1} \frac{\textbf{a} \cdot \textbf{b}}{||\textbf{a}|| ||\textbf{b}||} \] \normalsize
+
+\subsubsection{Cauchy-Schwarz Inequality}
+\textit{For any two vectors \textbf{a} and \textbf{b}, we have} 
+\LARGE \[ |\textbf{a} \cdot \textbf{b}| \leq ||\textbf{a}|| ||\textbf{b}|| \] \normalsize
+
+\subsubsection{Find the angle between two vectors}
+Find the angle between the vectors i + j + k and i + j - k
+
+\begin{enumerate}
+  \item \LARGE \[ (i + j + k) \cdot (i + j - k) = ||i + j + k|| ||i + j - k|| cos\theta \] \normalsize
+  \item \LARGE \[ 1 + 1 - 1 = (\sqrt{3})(\sqrt{3}) cos\theta \] \normalsize
+  \item \LARGE \[ \frac{1}{3} = cos\theta \] \normalsize
+  \item \LARGE \[ \frac{1}{3} = cos\theta \] \normalsize
+  \item \LARGE \[ \theta = cos^{-1} (\frac{1}{3}) \approx \] \begin{center}
+  1.23 radiants (71 degrees)
+  \end{center} \normalsize
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
 
 
 
