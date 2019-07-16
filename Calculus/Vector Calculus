@@ -524,6 +524,25 @@ The cross product of two vectors is called the \textit{vector product}.
   
   
   
+\subsection{Triple Product}
+\LARGE \[ \textbf{a} \cdot (\textbf{b} \times \textbf{c}) =  \begin{bmatrix}
+a_1 & a_2 & a_3\\\ 
+b_1 & b_2 & b_3\\ 
+c_1 & c_2 & c_3
+\end{bmatrix} = a_1 \begin{bmatrix}
+b_2 & b_3 \\ 
+c_2 & c_3
+\end{bmatrix} - a_2 \begin{bmatrix}
+b_1 & b_3 \\ 
+c_1 & c_3
+\end{bmatrix} + a_3 \begin{bmatrix}
+b_1 & b_2 \\ 
+c_1 & c_2
+\end{bmatrix} \] \normalsize
+
+
+  
+  
   
 
 
