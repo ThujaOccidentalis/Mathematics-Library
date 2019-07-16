@@ -454,12 +454,34 @@ a_{31} & \alpha a_{32} & a_{33}
 \end{bmatrix} \] \normalsize
  
 
+\subsection{Adding Rows to Rows or Columns to Columns}
+If we change a row (respectively, column) by adding another row (respectively, column) to it, the value of the determinant remains the same. For the 2 x 2 case this means
+
+\LARGE \[ \begin{bmatrix}
+a_1 & a_2 \\ 
+b_1 & b_2
+\end{bmatrix} = \begin{bmatrix}
+a_1 + b_1 & a_2 + b_2 \\ 
+b_1 & b_2
+\end{bmatrix} = \begin{bmatrix}
+a_1 & a_2 \\ 
+b_1 + a_1 & b_2 + a_2
+\end{bmatrix} \]
+
+\[ \begin{bmatrix}
+a_1 + a_2 & a_2 \\ 
+b_1 + b_2 & b_2
+\end{bmatrix} = \begin{bmatrix}
+a_1 & a_1 + a_2 \\ 
+b_1 & b_1 + b_2 
+\end{bmatrix} \]
 
 
+\subsection{The Cross Product of two Vectors}
+\normalsize
+Let \textbf{a} = $ a_1\textbf{i} + a_2\textbf{j} + a_3\textbf{k} $ and  $\textbf{b} = b_1\textbf{i} + b_2\textbf{j} + b_3\textbf{k} $ be vectors in $ \mathbb{R}^3 $. The \textit{cross product} of \textbf{a} and \textbf{b}, denoted \textbf{a} x \textbf{b}, is defined to be the vector
 
-
-
-
+ 
 
 
 
