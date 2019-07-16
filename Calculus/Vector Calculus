@@ -541,7 +541,34 @@ c_1 & c_2
 \end{bmatrix} \] \normalsize
 
 
-  
+\subsection{Area of a Parallelogram Between Two Vectors}
+The area of the parallelogram with adjecent sides \textbf{b} and \textbf{c}
+
+\LARGE \[ \lVert \textbf{b}\lVert \lVert \textbf{c}\lVert = \lvert sin \theta\rvert \] \normalsize
+
+\subsection{Area of Triangle Given Three Points}
+
+\LARGE \[ A = \frac{1}{2} \lVert (\textbf{b} - \textbf{a}) \times  (\textbf{c} - \textbf{a})\lVert  \] \normalsize
+
+\subsection{Volume of Parallelepiped}
+\textit{The volume of the parallelepiped with adjacent sides \textbf{a}, \textbf{b}, and \textbf{b} is the absolute value of the determinant}
+
+\LARGE \[ D = \begin{bmatrix}
+a_1 & a_2 & a_3\\ 
+b_1 & b_2 & b_3\\ 
+c_1 & c_2 & c_3 
+\end{bmatrix}
+ \] \normalsize
+ 
+ We know that $ \lVert \textbf{a} \times \textbf{b}\lVert $ is the area of the parallelogram with adjacent sides \textbf{a} and \textbf{b}. Moreover, 
+ 
+\LARGE \[ (\textbf{a} \times  \textbf{b}) \cdot \textbf{c} = \lVert c\lVert  \lVert a \times b \lVert cos \varPsi \] \normalsize
+
+where $ \varPsi  $ is the acute angle that \textbf{c} makes with the normal to the plane spanned by \textbf{a} and \textbf{b}.
+
+The volume is merely:
+
+\LARGE \[ | (\textbf{a} \times  \textbf{b}) \cdot \textbf{c} | \] \normalsize
   
   
 
