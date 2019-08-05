@@ -570,7 +570,57 @@ The volume is merely:
 
 \LARGE \[ | (\textbf{a} \times  \textbf{b}) \cdot \textbf{c} | \] \normalsize
   
-  
+\subsection{Equation of Plane in Space}
+
+\begin{enumerate}
+\item $ P;= $ a plane in space
+  \item $ a = a_1i + a_2j + a_3k$ a vector ending on the plane
+  \item $ n = Ai + Bj + Ck$ a vector normal to the plane
+  \item $ r = xi + yj + zk$ a vector in $ \mathbb{R}^3 $, the endpoint of \textbf{r} is on \textbf{P}
+  \item $ Ax + By = Cz = r \cdot n = a\cdot n = Aa_1 + Ba_2 + Ca_3 $
+  \item Since \textbf{n} and \textbf{a} are fixed, the right-hand side of equation is a constant, say \textbf{D}.
+\end{enumerate}
+
+Thus an equation that determines the plane P is 
+\LARGE \[ Ax + By + Cz + D = 0 \] \normalsize
+
+
+\subsubsection{Example}
+
+Determine the equation of the plane perpendicular to the vector \textbf{i} + \textbf{j} + \textbf{k} and containing the point (1, 0, 0).
+
+\begin{enumerate}
+  \item If follows that the equation of the plane is of the form \LARGE \[ x + y + z + D = 0 \] \normalsize
+  \item Since (1, 0, 0) is on the plane, \LARGE \[ 1 + 0 + 0 + D = 0 \] \normalsize
+  \item or \LARGE \[ D = -1 \] \normalsize
+  \item Thus \LARGE \[ x + y + z = 1 \] \normalsize
+  is the equation of the plane.
+\end{enumerate}
+
+\subsubsection{Example 2}
+
+Find an equation for the plane containing the points $(1, 1, 1)$ $(2, 0, 0)$, and $(1, 1, 0) $. \\ 
+
+Let $ \textbf{a} = \textbf{i} + \textbf{j} + \textbf{k}$ ,$ \textbf{b} = 2\textbf{i}$, $\textbf{c} = \textbf{i} + \textbf{j}$
+
+
+
+\begin{LARGE}
+\[ \textbf{n} = \begin{bmatrix}
+\textbf{i} & \textbf{j} & \textbf{k} \\ 
+-1 & 1 & 1\\ 
+-1 & 1 & 0
+\end{bmatrix} = -\textbf{i} -\textbf{j} \]
+\end{LARGE}
+
+\normalsize
+
+Thus, any equation of the plane is of the form $ -x -y + \textbf{D} = 0$. Since $ (2, 0, 0)$ lies on the plane, $ \textbf{D} = +2 $. After substituting, we obtain $ x + y -2 = \textbf{0} $
+
+
+
+
+
 
 
 
